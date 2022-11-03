@@ -8,17 +8,23 @@ A wiki repo for Decent Framework, a framework for building secure distributed ap
 - SimpleUtf
 	- A simple and lightweight C++ library used to convert characters among UTF-8, UTF-16, and UTF-32
 	- Git Repo: [https://github.com/zhenghaven/SimpleUtf](https://github.com/zhenghaven/SimpleUtf)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleUtf/blob/main/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/SimpleUtf/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - SimpleObjects
 	- A simple and lightweight C++ library implements dynamic object types
-	- Git Repo: [https://github.com/zhenghaven/SimpleObjects](https://github.com/zhenghaven/SimpleJson)
+	- Git Repo: [https://github.com/zhenghaven/SimpleObjects](https://github.com/zhenghaven/SimpleObjects)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleObjects/blob/main/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/SimpleObjects/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - SimpleJson
 	- A simple and lightweight C++ library parses JSON encoded messages into
 	  SimpleObjects, and encodes SimpleObjects into JSON messages
 	- Git Repo: [https://github.com/zhenghaven/SimpleJson](https://github.com/zhenghaven/SimpleJson)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleJson/blob/master/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/SimpleJson/actions/workflows/unit-tests.yaml/badge.svg?branch=master)
 
 - SimpleRlp & AdvancedRlp
@@ -26,6 +32,8 @@ A wiki repo for Decent Framework, a framework for building secure distributed ap
 	  messages into SimpleObjects, and encodes SimpleObjects into RLP or
 	  AdvancedRLP messages
 	- Git Repo: [https://github.com/zhenghaven/SimpleRlp](https://github.com/zhenghaven/SimpleRlp)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleRlp/blob/main/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/SimpleRLP/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - SimpleSysIO
@@ -34,17 +42,23 @@ A wiki repo for Decent Framework, a framework for building secure distributed ap
 	- It also provides implementation for SystemIO outside of an enclave
 	  environment, by using C standard library and Boost library
 	- Git Repo: [https://github.com/zhenghaven/SimpleSysIO](https://github.com/zhenghaven/SimpleSysIO)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleSysIO/blob/main/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/SimpleSysIO/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - mbedTLScpp
 	- This library provides many C++ class wrappers for MbedTLS C objects
 	- Git Repo: [https://github.com/zhenghaven/mbedTLScpp](https://github.com/zhenghaven/mbedTLScpp)
-	- Unit Tests Status: (work-in-progress)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/mbedTLScpp/blob/main/LICENSE)
+	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/mbedTLScpp/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - SimpleBoostSelector
 	- A set of CMake scripts utilize CMake's FetchContent module to help you
 	  to only fetch the Boost sub-libraries that are needed by your project
 	- Git Repo: [https://github.com/zhenghaven/SimpleBoostSelector](https://github.com/zhenghaven/SimpleBoostSelector)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleBoostSelector/blob/main/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/SimpleBoostSelector/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - SimpleCMakeScripts
@@ -52,6 +66,8 @@ A wiki repo for Decent Framework, a framework for building secure distributed ap
 		- Unit test code coverage report
 		- Decent Enclave CMake targets
 	- Git Repo: [https://github.com/zhenghaven/SimpleCMakeScripts](https://github.com/zhenghaven/SimpleCMakeScripts)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/SimpleCMakeScripts/blob/main/LICENSE)
 
 
 
@@ -64,6 +80,8 @@ A wiki repo for Decent Framework, a framework for building secure distributed ap
 	- Most of original implementation of `decent-ra-api` has been decomposed
 	  and refactored into repos mentioned in this documentation
 	- Git Repo: [https://github.com/zhenghaven/DecentEnclave](https://github.com/zhenghaven/DecentEnclave)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/DecentEnclave/blob/main/LICENSE)
 
 
 
@@ -77,6 +95,8 @@ These are implementations for the paper [Total Eclipse of the Enclave: Detecting
 
 - EclipseMonitor
 	- Git Repo: [https://github.com/zhenghaven/EclipseMonitor](https://github.com/zhenghaven/EclipseMonitor)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/EclipseMonitor/blob/main/LICENSE)
 	- Unit Tests Status: ![Unit Tests](https://github.com/zhenghaven/EclipseMonitor/actions/workflows/unit-tests.yaml/badge.svg?branch=main)
 
 - Ethereum Difficulty Monitor Experiment
@@ -89,6 +109,8 @@ These are implementations for the paper [Total Eclipse of the Enclave: Detecting
 	- It provides block header hash verification service and smart contract
 	  event subscription service
 	- Git Repo: [https://github.com/zhenghaven/DecentEthereum](https://github.com/zhenghaven/DecentEthereum)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/DecentEthereum/blob/main/LICENSE)
 
 ### Revocation: DecentRevoker
 
@@ -103,6 +125,8 @@ Automated revocation of Decent components by using Ethereum smart contracts
 	- Instruments WebAssembly code to insert instruction counters needed by
 	  DecentSLA project
 	- Git Repo: [https://github.com/zhenghaven/DecentWasmCounter](https://github.com/zhenghaven/DecentWasmCounter)
+		- Repo visibility: Public
+		- Open source: [MIT license](https://github.com/zhenghaven/DecentWasmCounter/blob/main/LICENSE)
 
 
 
